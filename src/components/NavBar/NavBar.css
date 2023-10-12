@@ -1,0 +1,29 @@
+
+/* Style for the logo */
+.typography-logo {
+  font-family: "monospace";
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+/* Style for menu items */
+.menu-item {
+  text-align: center;
+}
+
+/* Style for buttons */
+.button-style {
+  margin: 10px 0;
+  color: #587B7F;
+  display: block;
+}
+
+/* Style for avatar */
+.avatar-style {
+  margin-top: 45px;
+}

@@ -1,0 +1,25 @@
+.carousel-item img {
+    width: 100%;
+    /* Make the images fill the carousel */
+    height: 250px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    /* Remove the default icon */
+}
+
+.carousel-control-prev-icon::before {
+    content: "⏪";
+    /* Customize the previous button icon */
+    font-size: 40px;
+}
+
+.carousel-control-next-icon::before {
+    content: "⏩";
+    /* Customize the next button icon */
+    font-size: 50px;
+}

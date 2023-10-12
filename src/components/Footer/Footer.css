@@ -1,0 +1,30 @@
+/* Style for the main container */
+.footer-container {
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  background-color: #b61f1f;
+  position: fixed;
+  bottom: 0;
+}
+
+/* Style for the BottomNavigation component */
+.bottom-nav {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Style for the BottomNavigationAction labels */
+.bottom-nav-label {
+  font-size: 14px;
+}
+
+/* Style for the BottomNavigationAction icons */
+.bottom-nav-icon {
+  font-size: 24px;
+}
+
+.content {
+    flex: 1 0 auto;
+    padding: 20px;
+}
